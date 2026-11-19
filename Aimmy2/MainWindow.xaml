@@ -9,7 +9,7 @@
         xmlns:theme="clr-namespace:Aimmy2.Theme"
         theme:ThemeBehavior.AutoRegister="True"
         mc:Ignorable="d"
-        Title="Aimmy"
+        Title="RadiVision"
         Height="444"
         MinHeight="444"
         Width="670"
@@ -24,14 +24,14 @@
         Loaded="Window_Loaded">
     <Window.Resources>
         <!-- Theme colors that can be updated dynamically -->
-        <SolidColorBrush x:Key="ThemeColor" Color="#FF722ED1"/>
-        <SolidColorBrush x:Key="ThemeColorDark" Color="#FF531DAB"/>
-        <SolidColorBrush x:Key="ThemeColorLight" Color="#FF8B3FE5"/>
-        <SolidColorBrush x:Key="ThemeGradientDark" Color="#FF120338"/>
+        <SolidColorBrush x:Key="ThemeColor" Color="#FFD93449"/>
+        <SolidColorBrush x:Key="ThemeColorDark" Color="#FF9B1930"/>
+        <SolidColorBrush x:Key="ThemeColorLight" Color="#FFFF6177"/>
+        <SolidColorBrush x:Key="ThemeGradientDark" Color="#FF190910"/>
 
         <!-- Additional theme variations -->
-        <SolidColorBrush x:Key="ThemeColorTransparent" Color="#33722ED1"/>
-        <SolidColorBrush x:Key="ThemeColorSemiTransparent" Color="#66722ED1"/>
+        <SolidColorBrush x:Key="ThemeColorTransparent" Color="#33D93449"/>
+        <SolidColorBrush x:Key="ThemeColorSemiTransparent" Color="#66D93449"/>
     </Window.Resources>
     <WindowChrome.WindowChrome>
         <WindowChrome ResizeBorderThickness="2"
@@ -62,7 +62,7 @@
                     <GradientStop Color="Black"
                                   Offset="0.27" />
                     <GradientStop x:Name="GradientThemeStop" 
-                                  Color="#FF120338"
+                                  Color="#FF190910"
                                   Offset="1" />
                 </LinearGradientBrush>
             </Border.Background>
@@ -84,7 +84,7 @@
                                           FillRule="NonZero" />
                         </Path.Data>
                     </Path>
-                    <Label Content="Aimmy"
+                    <Label Content="RadiVision"
                            HorizontalAlignment="Left"
                            Margin="45,0,0,0"
                            VerticalAlignment="Center"
@@ -133,8 +133,8 @@
                             ClipToBounds="True">
                         <Border.Background>
                             <RadialGradientBrush>
-                                <GradientStop x:Name="HighlighterGradient1" Color="#FF722ED1" Offset="0"/>
-                                <GradientStop x:Name="HighlighterGradient2" Color="#33722ED1" Offset="0.3"/>
+                                <GradientStop x:Name="HighlighterGradient1" Color="#FFD93449" Offset="0"/>
+                                <GradientStop x:Name="HighlighterGradient2" Color="#33D93449" Offset="0.3"/>
                                 <GradientStop Color="Transparent" Offset="0.9"/>
                             </RadialGradientBrush>
                         </Border.Background>
